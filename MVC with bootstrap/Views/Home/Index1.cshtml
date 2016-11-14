@@ -1,0 +1,278 @@
+﻿
+@{
+    ViewBag.Title = "Index1";
+}
+
+<h2>Index1</h2>
+
+
+@*Bootstrap tables classes*@
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Email</th>
+            </tr>
+            <tr class="active">
+                <td>1</td>
+                <td>Safayat Zisan</td>
+                <td>Male</td>
+                <td>zisan_cse_mbstu@hotmail.com</td>
+            </tr>
+            <tr class="danger">
+                <td>2</td>
+                <td>Farhin Islam</td>
+                <td>Female</td>
+                <td>Farhin_Islam@hotmail.com</td>
+            </tr>
+            <tr class="success">
+                <td>3</td>
+                <td>Md. Ashaduzzoha</td>
+                <td>Male</td>
+                <td>Ashaduzzoha@hotmail.com</td>
+            </tr>
+            <tr class="warning">
+                <td>4</td>
+                <td>Afroz Jahan Poly</td>
+                <td>Female</td>
+                <td>Poly@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Maliha Rubaba Shukanya</td>
+                <td>Female</td>
+                <td>maliha_rubaba_shukanya@hotmail.com</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Bootstrap button classes*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <button class="btn btn-default">btn-default</button>
+            <button class="btn btn-primary">btn-primary</button>
+            <button class="btn btn-success">btn-success</button>
+            <button class="btn btn-info">btn-info</button>
+            <button class="btn btn-warning">btn-warning</button>
+            <button class="btn btn-danger">btn-danger</button>
+            <button class="btn btn-link">btn-link</button>
+            <br />
+            <a href="pp" class="btn btn-primary">Hyperlink</a>
+            <br /><br />
+            <button class="btn btn-primary btn-lg">large</button>
+            <button class="btn btn-primary btn-sm">small</button>
+            <button class="btn btn-primary btn-xs">xtra small</button>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Button blocks*@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="buttonStyle">
+                <button class="btn btn-primary btn-block">Button 1</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="buttonStyle">
+                <button class="btn btn-primary btn-block">Button 2</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="buttonStyle">
+                <button class="btn btn-primary btn-block">Button 3</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="buttonStyle">
+                <button class="btn btn-primary btn-block">Button 4</button>
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Button with icon*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <button class="btn btn-warning">Search <span class="glyphicon glyphicon-search"></span></button>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Dropdown list*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Dropdown <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">Action 1</a></li>
+                    <li><a href="">Action 2</a></li>
+                    <li><a href="">Action 3</a></li>
+                    <li><a href="">Action 4</a></li>
+                    <li><a href="">Action 5</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Button group and toolbar*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="btn-group">
+                <button class="btn btn-default">btn-1</button>
+                <button class="btn btn-primary">btn-2</button>
+                <button class="btn btn-success">btn-3</button>
+                <button class="btn btn-info">btn-4</button>
+                <button class="btn btn-warning">btn-5</button>
+                <button class="btn btn-danger">btn-6</button>
+            </div>
+            <br />
+            <br />
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <button class="btn btn-default">btn-1</button>
+                    <button class="btn btn-primary">btn-2</button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-success">btn-3</button>
+                    <button class="btn btn-info">btn-4</button>
+                    <button class="btn btn-warning">btn-5</button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-danger">btn-6</button>
+                    <button class="btn btn-primary">btn-6</button>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="btn-toolbar">
+                <div class="btn-group-vertical btn-group-lg">
+                    <button class="btn btn-default">btn-1</button>
+                    <button class="btn btn-primary">btn-2</button>
+                </div>
+                <div class="btn-group-vertical btn-group-sm">
+                    <button class="btn btn-success">btn-3</button>
+                    <button class="btn btn-info">btn-4</button>
+                    <button class="btn btn-warning">btn-5</button>
+                </div>
+                <div class="btn-group-vertical btn-group-xs">
+                    <button class="btn btn-danger">btn-6</button>
+                    <button class="btn btn-primary">btn-6</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Nested button group*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="btn-group">
+                <a href="" class="btn btn-primary">Button1</a>
+                <a href="" class="btn btn-primary">Button2</a>
+                <div class="btn-group">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            Dropdown <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Action 1</a></li>
+                            <li><a href="">Action 2</a></li>
+                            <li><a href="">Action 3</a></li>
+                            <li><a href="">Action 4</a></li>
+                            <li><a href="">Action 5</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Justified button group*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="btn-group btn-group-justified">
+                <a href="" class="btn btn-danger">Button1</a>
+                <a href="" class="btn btn-primary">Button2</a>
+                <a href="" class="btn btn-default">Button3</a>
+                <a href="" class="btn btn-info">Button4</a>
+                <a href="" class="btn btn-success">Button5</a>
+                <a href="" class="btn btn-warning">Button6</a>
+            </div>
+        </div>
+        <br /><br />
+        @*<div class="col-xs-12">
+                <div class="btn-group btn-group-justified">
+                    <div class="btn-group">
+                        <button class="btn btn-danger">Button1</button>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Button2</button>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-default">Button3</button>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-info">Button4</button>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-success">Button5</button>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-warning">Button6</button>
+                    </div>
+                </div>
+            </div>*@
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Split button dropdown*@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="btn-group">
+                <button class="btn btn-primary">SQL Server</button>
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">C#</a></li>
+                    <li><a href="">ASP.NET</a></li>
+                    <li><a href="">ADO.NET</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

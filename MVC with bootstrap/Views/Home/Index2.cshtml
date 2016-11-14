@@ -1,0 +1,233 @@
+﻿
+@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Index2</h2>
+
+@*Vertical forms*@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <form>
+                <div class="form-group">
+                    <label for="inputUserName">Username</label>
+                    <input class="form-control" placeholder="Login Username" type="text" id="inputUserName" />
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input class="form-control" placeholder="Login Password" type="password" id="inputPassword" />
+                </div>
+                <button class="btn btn-default" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Horizontal form*@
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-3">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputUserName">Username</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" placeholder="Login Username" type="text" id="inputUserName" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputPassword">Password</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" placeholder="Login Password" type="password" id="inputPassword" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <button class="btn btn-default" type="submit">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br /><br /><br />
+
+
+@*Bootstrap form controls*@
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-3">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputName">Name</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="inputName" placeholder="Full name" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputDOB">Date of birth</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="date" id="inputDOB" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputEmail">Email</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="email" id="inputEmail" placeholder="Email address" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputExperience">Work experience</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="number" id="inputExperience" placeholder="Total experience in year" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputURL">Personal website</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="url" id="inputURL" placeholder="Your website address" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputDescription">Personal information</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" id="inputDescription" placeholder="Full personal information"></textarea>
+                    </div>
+                </div>
+
+
+                @*Checkbox*@
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputSubjects">Subjects</label>
+                    <div class="col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="option1" />
+                                C#
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="option2" />
+                                ASP.NET
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="option3" />
+                                SQL Server
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+                @*Inline checkbox*@
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputSubjects">Subjects</label>
+                    <div class="col-sm-10">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="option1" />
+                            C#
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="option2" />
+                            ASP.NET
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="option3" />
+                            SQL Server
+                        </label>
+                    </div>
+                </div>
+
+
+                @*Radiobuttons*@
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputSubjects">Gender</label>
+                    <div class="col-sm-10">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="radioGroup" value="option1" />
+                                Male
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="radioGroup" value="option2" />
+                                Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="radioGroup" value="option3" />
+                                Other
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+                @*Inline radiobuttons*@
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputSubjects">Gender</label>
+                    <div class="col-sm-10">
+                        <label class="radio-inline">
+                            <input type="radio" name="radioGroup" value="option1" />
+                            Male
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="radioGroup" value="option2" />
+                            Female
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="radioGroup" value="option3" />
+                            Other
+                        </label>
+                    </div>
+                </div>
+
+
+                @*Dropdownlist*@
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputAge">Age</label>
+                    <div class="col-sm-10">
+                        <select class="form-control">
+                            <option>Under 20</option>
+                            <option>Under 30</option>
+                            <option>Under 40</option>
+                            <option>Under 50</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                @*Multiple select list*@
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="inputChild">Answer</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" multiple>
+                            <option>Option1</option>
+                            <option>Option2</option>
+                            <option>Option3</option>
+                            <option>Option4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <button class="btn btn-default" type="submit">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
